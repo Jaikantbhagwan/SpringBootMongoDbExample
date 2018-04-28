@@ -12,9 +12,8 @@ import com.example.demo.model.User;
 import com.example.demo.repository.UserRepository;
 
 @RestController
-public class UserController {
+public class UserController {	
 	
-	@Autowired
 	private UserRepository userRepository;
 	
 	public UserController(UserRepository userRepository) {
